@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{5BA8B469-DECE-A4DF-F19A-53C3F2D5988B}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SVG Importer/Editor/Debug/SVGDebugLayersEditor.cs">
+    <Files>
+      <File FileName="Assets/SVG Importer/Editor/Windows/SVGAboutWindow.cs" Line="148" Column="57" />
+      <File FileName="Assets/SVG Importer/Editor/Core/SVGModifierEditor.cs" Line="305" Column="51" />
+      <File FileName="Assets/SVG Importer/Editor/Utils/SVGGUI.cs" Line="104" Column="63" />
+      <File FileName="Assets/SVG Importer/Editor/Utils/SVGHandles.cs" Line="288" Column="1" />
+      <File FileName="Assets/SVG Importer/Editor/Debug/SVGDebugLayersEditor.cs" Line="94" Column="55" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
