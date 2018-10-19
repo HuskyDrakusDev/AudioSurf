@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_9;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_9;UNITY_2018_2;UNITY_2018;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -49,7 +49,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2018.2.9f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -61,6 +61,168 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Chart and Graph\ChartParser\ChartParser.cs" />
+    <Compile Include="Assets\Chart and Graph\ChartParser\JsonParser.cs" />
+    <Compile Include="Assets\Chart and Graph\ChartParser\XMLParser.cs" />
+    <Compile Include="Assets\Chart and Graph\InDev\MixedSeriesChart\CategoryFilters\IdentityCategoryFilter.cs" />
+    <Compile Include="Assets\Chart and Graph\InDev\MixedSeriesChart\MixedSeriesChart.cs" />
+    <Compile Include="Assets\Chart and Graph\InDev\MixedSeriesChart\MixedSeriesData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\AbstractChartData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\AnyChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Attributes\CanvasAttribute.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Attributes\ChartFillerEditorAttribute.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Attributes\NonCanvasAttribute.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Attributes\SimpleAttribute.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\AutoFloat.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\AxisBase.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\AxisFormat.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\AxisGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\CanvasAxisGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\ChartDivisionInfo.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\ChartMainDivisionInfo.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\ChartSubDivisionInfo.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\HorizontalAxis.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\IAxisGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Axis\VerticalAxis.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\AxisChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\BarChart\BarChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\BarChart\BarData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\BarChart\BarGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\BarChart\BarInfo.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\BarChart\BarMaterialFit.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\BarChart\BarMesh.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\BarChart\BarMeshGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\BarChart\CanvasBarChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\BarChart\IBarGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\BarChart\WorldSpaceBarChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Canvas\CanvasLines.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Canvas\CanvasLinesHover.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Canvas\EventHandlingGraphic.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Canvas\SensitivityControl.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartAdancedSettings.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartCommon.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartData\BaseScrollableCategoryData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartData\BaseSlider.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartData\IChartData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartData\ScrollableChartData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartDateUtility.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartDivisionSide.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartDynamicMaterial.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartItem\CharItemEffectController.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartItem\ChartItemEffect.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartItem\ChartItemEvents.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartItem\ChartItemGrowEffect.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartItem\ChartItemLerpEffect.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartItem\ChartItemMaterialLerpEffect.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartItem\ChartItemTextBlend.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartMargin.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartMaterialController.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartOrientation.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ChartOrientedSize.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Common\ChartItem.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Common\ChartItemIndex.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Common\ChartItemNoDelete.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Common\DoubleRect.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Common\DoubleVector2.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Common\DoubleVector3.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Common\DoubleVector4.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Common\GameObjectPool.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Common\ICanvas.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\DataFillers\GraphDataFiller.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\DataSource\ChartColumnCollection.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\DataSource\ChartDataColumn.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\DataSource\ChartDataItemBase.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\DataSource\ChartDataRow.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\DataSource\ChartDataSourceBase.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\DataSource\ChartDataSourceBaseCollection.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\DataSource\ChartRowCollection.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\DataSource\ChartSparseDataSource.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\DataSource\IDataItem.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Exceptions\ChartDuplicateNameException.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Exceptions\ChartException.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Exceptions\ChartItemNotExistException.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\GraphChart\GraphChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\GraphChart\GraphChartBase.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\GraphChart\GraphData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\GraphChart\WorldSpaceGraphChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\IInternalUse.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\InternalUseInterfaces\IInternalBarData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\InternalUseInterfaces\IInternalCandleData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\InternalUseInterfaces\IInternalGraphData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\InternalUseInterfaces\IInternalPieData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\InternalUseInterfaces\IInternalSettings.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\InternalUseInterfaces\InternalItemEvents.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Legened\CanvasLegend.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Legened\CanvasLegendItem.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\LegenedInfo.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\MaterialTiling.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Mesh\CanvasChartMesh.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Mesh\ChartMeshBase.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Mesh\IChartMesh.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Mesh\WorldSpaceChartMesh.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\MeshDimention.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\MixedSeriesChart\IMixedChartDelegate.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\MixedSeriesChart\IMixedSeriesProxy.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\MixedSeriesChart\MixedSeriesGenericValue.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\MonoBehaviours\ChartSettingItemBase.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Path\BoxPathGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Path\CustomPathGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Path\CylinderPathGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Path\FillPathGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Path\LineRendererPathGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Path\PathGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Path\PathMultiplier.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Path\SmoothPathGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\PieChart\CanvasPieChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\PieChart\IPieGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\PieChart\PieCanvasGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\PieChart\PieChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\PieChart\PieData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\PieChart\PieMesh.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\PieChart\WorldSpacePieChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\PieChart\WorldSpacePieGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\RadarChart\CanvasRadarChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\RadarChart\IInternalRadarData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\RadarChart\RadarChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\RadarChart\RadarChartData.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\RadarChart\RadarFill.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\RadarChart\RadarFillGenerator.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\RadarChart\WorldSpaceRadarChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\ScrollableAxisChart.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\SimpleJSON-master\SimpleJSON-master\SimpleJSON.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\SimpleJSON-master\SimpleJSON-master\SimpleJSONBinary.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\SimpleJSON-master\SimpleJSON-master\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\AlignedItemLabels.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\BillboardText.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\CategoryLabels.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\ChartLabelAlignment.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\ChartText.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\GroupLabelAlignment.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\GroupLabels.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\ItemLabels.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\ItemLabelsBase.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\TextController.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\TextDirection.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Text\TextFormatting.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Utils\Animation\BarAnimation.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Utils\Animation\GraphAnimation.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Utils\Animation\PieAnimation.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Utils\AxisCoordinates.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Utils\HoverText.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Utils\InfoBox\InfoBox.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Utils\Multiple Graph Demo\MultipleGraphDemo.cs" />
+    <Compile Include="Assets\Chart and Graph\Script\Utils\Simple Graph Demo\SimpleGraphDemo.cs" />
+    <Compile Include="Assets\Chart and Graph\Themes\Demo\SelectScene.cs" />
+    <Compile Include="Assets\Chart and Graph\Tutorials\Bar\BarChartFeed.cs" />
+    <Compile Include="Assets\Chart and Graph\Tutorials\Bubble Graph\BubbleGraphFeed.cs" />
+    <Compile Include="Assets\Chart and Graph\Tutorials\Graph\GraphChartFeed.cs" />
+    <Compile Include="Assets\Chart and Graph\Tutorials\Large Data Graph\LargeDataFeed.cs" />
+    <Compile Include="Assets\Chart and Graph\Tutorials\Marker\Marker.cs" />
+    <Compile Include="Assets\Chart and Graph\Tutorials\Pie\PieChartFeed.cs" />
+    <Compile Include="Assets\Chart and Graph\Tutorials\Radar\RadarChartFeed.cs" />
+    <Compile Include="Assets\Chart and Graph\Tutorials\Stream Graph\StreamingGraph.cs" />
+    <Compile Include="Assets\scripts\GameManager.cs" />
+    <Compile Include="Assets\scripts\Player.cs" />
     <Compile Include="Assets\SVG Importer Tests\Tests\BindPoseExample.cs" />
     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Animation\AnimationActions.cs" />
     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Audio\AudioCameraZoom.cs" />
@@ -206,35 +368,48 @@
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorTexOverlayAlphaBlended.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorDiffuseOpaque.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\SVGImporterGradientCG.cginc" />
+    <None Include="Assets\Chart and Graph\3rd party notices.txt" />
+    <None Include="Assets\Chart and Graph\Shaders\GradientWorldSpace.shader" />
+    <None Include="Assets\Chart and Graph\Themes\Common\Materials\pie-1\StandardCullOff.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Gradient Fill\GradientColorAlphaBlendedAntialiased.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\GUI\InverseShader.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorMultiply.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\SVGImporterUICG.cginc" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\SVGImporterSolidCG.cginc" />
+    <None Include="Assets\Chart and Graph\Shaders\GradientCanvas.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\GradientColorMultiply.shader" />
+    <None Include="Assets\Chart and Graph\Themes\Common\Materials\bar-3\StandardCullOff.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorAdditive.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Gradient Fill\GradientColorAlphaBlended.shader" />
+    <None Include="Assets\Chart and Graph\Shaders\GradientWorldSpaceOutline.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Gradient Fill\GradientColorOpaque.shader" />
     <None Include="Assets\SVG Importer\changelog.txt" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorDiffuseAlphaBlended.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\UI\UIAntialiased.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\GradientColorAdditive.shader" />
+    <None Include="Assets\Chart and Graph\Themes\3d\Pie\Theme 5\Materials\StandardCullOff.shader" />
+    <None Include="Assets\Chart and Graph\Themes\Common\Materials\pie-3d-3\StandardCullOff.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Solid Fill\SolidColorAlphaBlendedAntialiased.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorTexOverlayAlphaBlendedAntialiased.shader" />
+    <None Include="Assets\Chart and Graph\Themes\Common\Fonts\Exo2\Scada - SIL Open Font License.txt" />
     <None Include="Assets\SVG Importer\Plugins\LibTessDotNet\LibTessDotNet-LICENSE.txt" />
+    <None Include="Assets\Chart and Graph\Themes\Common\Fonts\comprehension\SIL Open Font License.txt" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Solid Fill\SolidColorOpaque.shader" />
+    <None Include="Assets\Chart and Graph\Themes\Common\Materials\bar-1\StandardCullOff.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Solid Fill\SolidColorAlphaBlended.shader" />
+    <None Include="Assets\Chart and Graph\Themes\Common\Meshes\cc0-license\License.txt" />
+    <None Include="Assets\Chart and Graph\Shaders\SolidCanvasShader.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/thebuildmac/Documents/Unity Projects/AudioSurf/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/thebuildmac/Documents/Unity Projects/AudioSurf/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/thebuildmac/Documents/Unity Projects/AudioSurf/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/thebuildmac/Documents/Unity Projects/AudioSurf/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -262,12 +437,6 @@
     </Reference>
     <Reference Include="UnityEngine.CloudWebServicesModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
