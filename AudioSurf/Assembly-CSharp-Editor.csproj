@@ -79,6 +79,12 @@
     <Compile Include="Assets\Chart and Graph\Editor\PieChartInspector.cs" />
     <Compile Include="Assets\Chart and Graph\Editor\RadarChartInspector.cs" />
     <Compile Include="Assets\Chart and Graph\Editor\RenameWindow.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksEditorFormUpload.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksPopUp.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksRestApi.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksRestWindow.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksSettingsEditor.cs" />
+    <Compile Include="Assets\GameSparks\Editor\GameSparksUnityInspector.cs" />
     <Compile Include="Assets\SVG Importer\Editor\AssetPostprocessor\SVGPostprocessor.cs" />
     <Compile Include="Assets\SVG Importer\Editor\Core\SVGAssetEditor.cs" />
     <Compile Include="Assets\SVG Importer\Editor\Core\SVGAtlasEditor.cs" />
@@ -365,6 +371,18 @@
     </Reference>
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparks.Api">
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Assets/GameSparks/Plugins/GameSparks.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparksRT">
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Assets/GameSparks/Plugins/GameSparksRT.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparks">
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Assets/GameSparks/Plugins/GameSparks.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle_GameSparks">
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Assets/GameSparks/Plugins/BouncyCastle_GameSparks.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/thebuildmac/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

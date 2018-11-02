@@ -44,6 +44,7 @@ namespace ChartAndGraph
                     AddInnerCurve(Data[i], Data[i + 1], Data[i + 2], Data[i + 3]);
                     mTmpCurveData.Add(Data[i + 3]);
                 }
+                Debug.Log("curved data: ");
                 return mTmpCurveData;
             }
 

@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using ChartAndGraph;
 using System.Collections.Generic;
+using System.Collections;
 using System;
+using System.Linq;
 public class GraphChartFeed : MonoBehaviour
 {
      public List<List<DateTime>> dataX;
@@ -16,16 +18,22 @@ public class GraphChartFeed : MonoBehaviour
     public List<GameObject> graphTitles;
     public List<int> clearedGraphs;
     public bool is3dGraph;
-
+    public float graphMaxY;
+    public float graphMaxX;
+    public int numberOfRewards;
+    public float scale;
 
     public void UpdateGraphPoints ()
     {
-        
-         graph = GetComponent<GraphChartBase>();
+        scale = transform.localScale.x;
+        graph = GetComponent<GraphChartBase>();
+        graphMaxY = graph.HeightRatio;
+        graphMaxX = graph.WidthRatio;
+
 
         if (graph != null)
         {
-            Debug.Log("yaiii");
+           //Debug.Log("yaiii");
 
             graph.DataSource.StartBatch();
             for (int i = 0; i < 1; i++)
@@ -59,13 +67,13 @@ public class GraphChartFeed : MonoBehaviour
 
                             if (j == 0)
                             {
-                                    graph.DataSource.SetCurveInitialPoint(categoryName, 0f, dataY[i][0] * 10f + 10f);
+                                    graph.DataSource.SetCurveInitialPoint(categoryName, 0f, dataY[i][0]);
 
                             }
                             else
                             {
                                
-                                    graph.DataSource.AddLinearCurveToCategory(categoryName, new DoubleVector2(j * 10f / 30f, dataY[i][j] * 10f + 20f));
+                                    graph.DataSource.AddLinearCurveToCategory(categoryName, new DoubleVector2(j , dataY[i][j] ));
                                 
                             }
                         }
@@ -75,15 +83,42 @@ public class GraphChartFeed : MonoBehaviour
                     count++;
                 }
 
+
             }
-            Debug.Log("count: " + count);
+            //Debug.Log("count: " + count);
             graph.DataSource.EndBatch();
+
+        }
+        SetupPoints();
+    }
+    public void SetupPoints()
+    {
+        float minY = gameManager.dataY.Min();
+        float maxY = gameManager.dataY.Max();
+       
+
+
+        float xIncrement = dataY[0].Count;
+        for (int i = 0; i < dataY[0].Count; i++)
+        {
+            float y_val = ((dataY[0][i] - minY) / (maxY - minY))*graphMaxY;
+           // Debug.Log("i: "+i+" y_val: " + y_val);
+            gameManager.dataYPoints.Add(new Vector3((((float)i/xIncrement)*graphMaxX)*scale,y_val*scale,0));
+
         }
     }
+    public void SetupRewardAtPoints(float maxY, float maxX,float maxYAtPoint){
+        GameObject player = gameManager.GetComponent<GameManager>().player.gameObject;
+        for (int i = 0; i < numberOfRewards;i++){
+            float xRand = UnityEngine.Random.Range(0, maxX);
+            float yRand = maxYAtPoint;
 
+            GameObject rewardObject = Instantiate(gameManager.rewards[0],new Vector3(xRand,yRand,player.GetComponent<Player>().zConst),gameManager.rewards[0].transform.rotation);
+        }
+    }
     public void ClearGraphs(){
        
-        Debug.Log("graphtitles count: "+graphTitles.Count);
+      //  Debug.Log("graphtitles count: "+graphTitles.Count);
         int count = graphTitles.Count;
         ;
         for (int j = count-1; j >=0; j--)
@@ -104,6 +139,6 @@ public class GraphChartFeed : MonoBehaviour
 
             }
         }
-        Debug.Log("cleared");
+        //Debug.Log("cleared");
     }
 }

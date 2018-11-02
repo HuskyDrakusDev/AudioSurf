@@ -221,7 +221,27 @@
     <Compile Include="Assets\Chart and Graph\Tutorials\Pie\PieChartFeed.cs" />
     <Compile Include="Assets\Chart and Graph\Tutorials\Radar\RadarChartFeed.cs" />
     <Compile Include="Assets\Chart and Graph\Tutorials\Stream Graph\StreamingGraph.cs" />
+    <Compile Include="Assets\GameSparks\GameSparksRTUnity.cs" />
+    <Compile Include="Assets\GameSparks\GameSparksSettings.cs" />
+    <Compile Include="Assets\GameSparks\GameSparksUnity.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\DefaultPlatform.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\IControlledTimer.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\IControlledWebSocket.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\Native\detail\GameSparksNative.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\Native\detail\GameSparksNativePINVOKE.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\Native\detail\NativeWebSocket.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\Native\NativePlatform.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\Native\NativeWebSocket.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\PlatformBase.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\TimerController.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\UnityTimer.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\WebGL\SimpleJson2.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\WebGL\WebGLPlatform.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\WebGL\WebGLWebSocket.cs" />
+    <Compile Include="Assets\GameSparks\Platforms\WebSocketController.cs" />
+    <Compile Include="Assets\GameSparks\TestUI\GameSparksTestUI.cs" />
     <Compile Include="Assets\scripts\GameManager.cs" />
+    <Compile Include="Assets\scripts\GameScores.cs" />
     <Compile Include="Assets\scripts\Player.cs" />
     <Compile Include="Assets\SVG Importer Tests\Tests\BindPoseExample.cs" />
     <Compile Include="Assets\SVG Importer\Example Projects\Curves Demo\Scripts\Animation\AnimationActions.cs" />
@@ -366,7 +386,9 @@
     <None Include="Assets\SVG Importer\Plugins\Shaders\SVGImporterCG.cginc" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\UI\UI.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorTexOverlayAlphaBlended.shader" />
+    <None Include="Assets\GameSparks\Plugins\GameSparksRT.xml" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorDiffuseOpaque.shader" />
+    <None Include="Assets\GameSparks\Plugins\Metro\GameSparksRT.xml" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\SVGImporterGradientCG.cginc" />
     <None Include="Assets\Chart and Graph\3rd party notices.txt" />
     <None Include="Assets\Chart and Graph\Shaders\GradientWorldSpace.shader" />
@@ -376,6 +398,7 @@
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorMultiply.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\SVGImporterUICG.cginc" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\SVGImporterSolidCG.cginc" />
+    <None Include="Assets\GameSparks\README.txt" />
     <None Include="Assets\Chart and Graph\Shaders\GradientCanvas.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\GradientColorMultiply.shader" />
     <None Include="Assets\Chart and Graph\Themes\Common\Materials\bar-3\StandardCullOff.shader" />
@@ -392,6 +415,7 @@
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Solid Fill\SolidColorAlphaBlendedAntialiased.shader" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Others\SolidColorTexOverlayAlphaBlendedAntialiased.shader" />
     <None Include="Assets\Chart and Graph\Themes\Common\Fonts\Exo2\Scada - SIL Open Font License.txt" />
+    <None Include="Assets\GameSparks\link.xml" />
     <None Include="Assets\SVG Importer\Plugins\LibTessDotNet\LibTessDotNet-LICENSE.txt" />
     <None Include="Assets\Chart and Graph\Themes\Common\Fonts\comprehension\SIL Open Font License.txt" />
     <None Include="Assets\SVG Importer\Plugins\Shaders\Resources\Solid Fill\SolidColorOpaque.shader" />
@@ -605,6 +629,18 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparks.Api">
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Assets/GameSparks/Plugins/GameSparks.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparksRT">
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Assets/GameSparks/Plugins/GameSparksRT.dll</HintPath>
+    </Reference>
+    <Reference Include="GameSparks">
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Assets/GameSparks/Plugins/GameSparks.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle_GameSparks">
+      <HintPath>/Users/thebuildmac/Documents/GitHub/AudioSurf/AudioSurf/Assets/GameSparks/Plugins/BouncyCastle_GameSparks.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/thebuildmac/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

@@ -2,9 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Player.cs">
     <Files>
-      <File FileName="Assets/scripts/GameManager.cs" Line="15" Column="24" />
-      <File FileName="Assets/Chart and Graph/Tutorials/Graph/GraphChartFeed.cs" Line="50" Column="21" />
-      <File FileName="Assets/scripts/Player.cs" Line="22" Column="18" />
+      <File FileName="Assets/scripts/GameManager.cs" Line="12" Column="37" />
+      <File FileName="Assets/Chart and Graph/Tutorials/Graph/GraphChartFeed.cs" Line="105" Column="1" />
+      <File FileName="Assets/scripts/GameScores.cs" Line="36" Column="21" />
+      <File FileName="Assets/scripts/Player.cs" Line="127" Column="27" />
+      <File FileName="Assets/Chart and Graph/Script/GraphChart/GraphData.cs" Line="24" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
